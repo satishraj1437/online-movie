@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <script type="text/javascript" src="login.js"></script>
+        
+        <!-- Bootstrap core CSS -->
+            <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+          <h1 class="">Login</h1>     
+       </div>
+        
+        
+        <div class="container">
+            <form onsubmit="return formValidate()" method="post" action="book.html">
+            <div class="row">
+                     <div class="col-md-8 col-md-offset-2">  
+        <div class="col-md-4">Email:</div>
+            <div class="col-md-8"><input type="text" id="email" name="email"><p id="email_r" style="display: none">* Invalid Email</p></div>
+                
+                 <div class="col-md-4">Password:</div>
+            <div class="col-md-8"> <p><input type="password" id="password" name="password"></p>
+            <p id="password_r" style="display: none">* Password Required</p></div>
+                
+                <div class="col-md-4"></div>
+            <div class="col-md-8"><input type="submit" value="login"></div>
+                
+                </div>
+                
+                </div>
+            </form>
+        
+                   
+       
+        </div>
+    </body>
+</html>
